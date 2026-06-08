@@ -1,4 +1,3 @@
-
 {
   "cli": {
     "version": ">= 10.0.0"
@@ -9,18 +8,10 @@
       "distribution": "internal"
     },
     "preview": {
-      "distribution": "internal"
-    },
-    "production": {},
-    "APK": {
-      "developmentClient": false,
-      "distribution": "internal",
       "android": {
         "buildType": "apk"
       }
-    }
-  },
-  "submit": {
+    },
     "production": {}
   }
 }
