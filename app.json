@@ -19,14 +19,14 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.nueds.tendertesfit"
+      "package": "com.zongi18.tendertesfit"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "e7abe61f-c319-42fa-8180-949424dd92c4"
+        "projectId": "d84893a0-d7f2-455a-b124-dba330193fc9"
       }
     }
   }
