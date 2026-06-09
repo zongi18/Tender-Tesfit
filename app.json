@@ -24,6 +24,7 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
+    "owner": "nueds-team",
     "extra": {
       "eas": {
         "projectId": "d84893a0-d7f2-455a-b124-fd2e811340b1"
