@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Tender-Tesfit",
+    "name": "Tender Tesfit",
     "slug": "tender-tesfit",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -23,6 +23,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d84893a0-d7f2-455a-b124-fd2e811340b1"
+      }
     }
   }
 }
