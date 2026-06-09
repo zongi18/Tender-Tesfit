@@ -267,7 +267,7 @@ export default function App() {
             parseScannedText(text);
         }).catch(err => {
             loading.style.display = 'none';
-            alert("ፎቶውን ማንበብ አልተቻለም፣ እባክዎ በድጋሚ በንጹህ ብርሃን ያንሱት።");
+            alert("ፎቶውን ማንበብ አልተቻለም፣ እባክዎ በድጋሚ በንጹህ ብርሃን ያንሱትLayout።");
             console.error(err);
         });
     }
@@ -356,4 +356,5 @@ const styles = StyleSheet.create({
     backgroundColor: '#eef2f7',
   },
 });
+
 
