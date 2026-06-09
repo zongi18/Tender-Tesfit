@@ -1,19 +1,28 @@
-
 {
   "expo": {
-    "name": "Tender Tesfit",
+    "name": "Tender-Tesfit",
     "slug": "tender-tesfit",
-    "owner": "nueds-team",
     "version": "1.0.0",
     "orientation": "portrait",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
     "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
       "package": "com.zongi18.tendertesfit"
     },
-    "extra": {
-      "eas": {
-        "projectId": "d84893a0-d7f2-455a-b124-dba330193fc9"
-      }
+    "web": {
+      "favicon": "./assets/favicon.png"
     }
   }
 }
