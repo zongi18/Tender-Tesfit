@@ -1,18 +1,20 @@
-{
-  "expo": {
-    "name": "Tender Tesfit",
-    "slug": "tender-tesfit",
-    "owner": "nueds-team",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "userInterfaceStyle": "light",
-    "android": {
-      "package": "com.zongi18.tendertesfit"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "d84893a0-d7f2-455a-b124-dba330193fc9"
-      }
-    }
-  }
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View } from 'react-native';
+
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <Text>Tender Tesfit App is Running Successfully!</Text>
+      <StatusBar style="auto" />
+    </View>
+  );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#ffffff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
