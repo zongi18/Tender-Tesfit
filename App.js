@@ -1,4 +1,4 @@
-import React from 'react';
+   import React from 'react';
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ስማርት የጨረታ ዋጋ መሙያ (Pro V3)</title>
     <script src="https://cdn.jsdelivr.net/npm/tesseract.js@4/dist/tesseract.min.js"></script>
